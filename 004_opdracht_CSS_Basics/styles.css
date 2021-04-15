@@ -1,0 +1,23 @@
+body {
+  background-color: #d6ce15;
+  font-family: "Roboto", sans-serif;
+  color: #1f2605;
+}
+main {
+  border: 2px dashed #1f2605;
+}
+h1,
+h2 {
+  color: #ffffff;
+}
+h1 {
+  font-size: 16px;
+}
+.ul_001 {
+  font-size: 14px;
+  color: #53900f;
+}
+.copyright {
+  font: 10px Arial, Helvetica, serif;
+  font-style: italic;
+}
