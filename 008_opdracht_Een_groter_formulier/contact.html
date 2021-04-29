@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8" />
+    <title> Otter's first web page </title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="black-border">The beginning of a great adventure</h1>
+    </header>
+    <nav class="nav">
+        <ul class="ul_002">
+            <li class="nav_li"><a href="index.html">Home</a></li>
+            <li class="nav_li"><a href="about.html">About</a></li>
+            <li class="nav_li"><a href="contact.html">Contact</a></li>
+            <li class="nav_li"><a href="about.html">Nav3</a></li>
+        </ul>
+    </nav>
+        <main class="main">
+        <h2>Contact form</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="enter your first name">
+                </p>
+                <p>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"value="enter your last name">
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>                                               
+                    <input type="email" id="email" name="email"value="enter your email address">
+                </p>
+                <p>
+                    <label for="phone">Phone number:</label><br>
+                    <input type="tel" id="phone" name="phone" >
+                </p>
+                <p>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" min="18" value="18">
+                </p>
+                <p>
+                    <label for="birthday">Birthday:</label><br>
+                    <input type="date" id="birthday" name="birthday">                    
+                </p>
+                <p>
+                    Select your gender:<br>                    
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </p>
+                <p>
+                    Why are you contacting me?<br>
+                    <input type="checkbox" id="reason1" name="reason1" value="Wood working">
+                    <label for="reason1"> I want to know more about wood working</label><br>
+                    <input type="checkbox" id="reason2" name="reason2" value="Computers">
+                    <label for="reason2"> I want to know more about computers</label><br>
+                    <input type="checkbox" id="reason3" name="reason3" value="Other">
+                    <label for="reason3"> I will tell you later</label>
+                </p>
+                <p>
+                    <label for="favcolor">Select your favorite color:</label><br>
+                    <input type="color" id="favcolor" name="favcolor">
+                </p>
+                <p>
+                    <label>Tell me more about you: </label><br>
+                    <textarea name="message"></textarea>
+                </p>
+                <p>
+                    Upload anything:<br>
+                    <label for="myfile"></label><br>
+                    <input type="file" id="myfile" name="myfile">
+                </p>
+                <p>
+                    <label for="homepage">Share your personal page:</label><br>
+                    <input type="url" id="homepage" name="homepage">
+                </p>
+                <p>
+                    <button type="submit">Send form</button>
+                    <button type="reset">Reset fields</button>                   
+                </p>
+            </form>
+    </main>
+    <footer>
+        <p class="copyright" >Copyright OtterWise</p>
+    </footer>
+</body></p>
+
+</html>
